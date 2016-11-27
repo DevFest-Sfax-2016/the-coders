@@ -60,21 +60,6 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
-    <TextView
-        android:id="@+id/list_specialite"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textColor="@color/colorPrimary"
-        android:ellipsize="end"
-        android:maxLines="1"
-        tools:text="Specialité: medcine dentaire"
-        android:textAppearance="?attr/textAppearanceListItem"
-        android:textSize="20sp"
-        android:layout_below="@+id/list_docteur"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="12dp" />
-
     <Button
         android:text="Render-Vous"
         android:layout_width="match_parent"
@@ -85,5 +70,20 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:elevation="0dp" />
+
+    <TextView
+        android:id="@+id/list_specialite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:ellipsize="end"
+        android:maxLines="1"
+        tools:text="Specialité: medcine dentaire"
+        android:textAppearance="?attr/textAppearanceListItem"
+        android:textSize="20sp"
+        android:layout_marginTop="12dp"
+        android:layout_below="@+id/list_docteur"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
 </RelativeLayout>

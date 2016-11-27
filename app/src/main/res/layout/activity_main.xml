@@ -11,7 +11,8 @@
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:id="@+id/buttondetail">
 
         <ImageView
             android:layout_width="match_parent"
@@ -28,7 +29,7 @@
             <LinearLayout
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
-                android:layout_height="91dp">
+                android:layout_height="53dp">
 
                 <TextView
                     android:text="Login"
@@ -87,10 +88,16 @@
 
 
             <Button
-                android:text="Demo"
+                android:text="Demonstration"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/boutonDemo" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button2"
+                android:text="Details of Doctors" />
 
         </LinearLayout>
     </LinearLayout>
