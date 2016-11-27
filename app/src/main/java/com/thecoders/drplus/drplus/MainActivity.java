@@ -38,6 +38,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private Button mSignInButton;
     private Button mSignUpButton;
 
+    private  Button bsignup;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
@@ -56,6 +58,17 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         mAuth = FirebaseAuth.getInstance();
 
         initView();
+
+        bsignup=(Button)findViewById(R.id.boutonDemo);
+
+        bsignup.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                // Go to homeactivity
+                startActivity(new Intent(MainActivity.this, HomeActivity.class));
+                finish();
+            }
+        });
     }
 
     private void initView() {
