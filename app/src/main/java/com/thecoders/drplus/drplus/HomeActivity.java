@@ -27,7 +27,7 @@ public class HomeActivity extends BaseActivity {
         mLayoutManager = new LinearLayoutManager(this);
         mRecyclerView.setLayoutManager(mLayoutManager);
 
-       /* mAdapter = new MyAdapter(myDataset);
+        /*mAdapter = new MyAdapter(myDataset);
         mRecyclerView.setAdapter(mAdapter);*/
 
     }
