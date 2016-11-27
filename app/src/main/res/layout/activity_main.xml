@@ -15,7 +15,7 @@
 
         <ImageView
             android:layout_width="match_parent"
-            android:layout_height="368dp"
+            android:layout_height="257dp"
             app:srcCompat="@drawable/logo"
             android:id="@+id/imageView" />
 
@@ -65,11 +65,11 @@
                 <EditText
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:inputType="textPersonName"
+                    android:inputType="textPassword"
                     android:ems="10"
-                    android:id="@+id/editText2"
-                    android:layout_weight="1"
-                    android:hint="Password" />
+                    android:id="@+id/editText3"
+                    android:layout_weight="1" />
+
             </LinearLayout>
 
             <Button
