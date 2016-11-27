@@ -22,32 +22,32 @@
     android:padding="16dp">
 
     <ImageView
-        android:id="@+id/list_avatar"
+        android:id="@+id/list_icon"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:scaleType="centerCrop"
         tools:src="@drawable/img22" />
 
     <TextView
-        android:id="@+id/list_title"
+        android:id="@+id/list_docteur"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="16dp"
-        android:layout_toRightOf="@+id/list_avatar"
+        android:layout_toRightOf="@+id/list_icon"
         tools:text="Docteur Med Chabouni"
         android:textAppearance="?attr/textAppearanceListItem"
         android:textSize="16sp" />
 
     <TextView
-        android:id="@+id/list_desc"
+        android:id="@+id/list_specialite"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/list_title"
+        android:layout_below="@+id/list_docteur"
         android:layout_marginLeft="16dp"
-        android:layout_toRightOf="@+id/list_avatar"
+        android:layout_toRightOf="@+id/list_icon"
         android:textColor="@color/colorPrimary"
         android:ellipsize="end"
-        android:singleLine="true"
+        android:maxLines="1"
         tools:text="Specialité: medcine dentaire"
         android:textAppearance="?attr/textAppearanceListItem"
         android:textSize="14sp" />
