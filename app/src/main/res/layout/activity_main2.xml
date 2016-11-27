@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_main2"
     android:layout_width="match_parent"
@@ -9,56 +10,6 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.thecoders.drplus.drplus.Main2Activity">
-
-    <ImageView
-        android:id="@+id/list_icon"
-        android:layout_height="250dp"
-        android:scaleType="centerCrop"
-        tools:src="@drawable/img22"
-        android:layout_width="250dp"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
-
-    <TextView
-        android:id="@+id/list_numtel"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textColor="@color/colorPrimary"
-        android:ellipsize="end"
-        android:maxLines="1"
-        tools:text="Num TEl:20202023/74523519"
-        android:textAppearance="?attr/textAppearanceListItem"
-        android:textSize="20sp"
-        android:layout_below="@+id/list_pay"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="11dp" />
-
-    <TextView
-        android:id="@+id/list_pay"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textColor="@color/colorPrimary"
-        android:ellipsize="end"
-        android:maxLines="1"
-        tools:text="Pay:Sfax"
-        android:textAppearance="?attr/textAppearanceListItem"
-        android:textSize="20sp"
-        android:layout_below="@+id/list_specialite"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="14dp" />
-
-    <TextView
-        android:id="@+id/list_docteur"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        tools:text="Docteur Med Chabouni"
-        android:textAppearance="?attr/textAppearanceListItem"
-        android:textSize="20sp"
-        android:layout_below="@+id/list_icon"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
 
     <Button
         android:text="Render-Vous"
@@ -71,6 +22,60 @@
         android:layout_alignParentEnd="true"
         android:elevation="0dp" />
 
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/img22"
+        android:id="@+id/imageView3"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="21dp"
+        android:layout_marginEnd="21dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/list_numtel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:ellipsize="end"
+        android:maxLines="1"
+        tools:text="Num TEl:20202023/74523519"
+        android:textAppearance="?attr/textAppearanceListItem"
+        android:textSize="20sp"
+        android:layout_above="@+id/button3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="28dp" />
+
+    <TextView
+        android:id="@+id/list_docteur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Docteur Med Chabouni"
+        android:textAppearance="?attr/textAppearanceListItem"
+        android:textSize="20sp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/list_pay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:ellipsize="end"
+        android:maxLines="1"
+        tools:text="Pay:Sfax"
+        android:textAppearance="?attr/textAppearanceListItem"
+        android:textSize="20sp"
+        android:layout_below="@+id/list_docteur"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="23dp" />
+
     <TextView
         android:id="@+id/list_specialite"
         android:layout_width="match_parent"
@@ -81,9 +86,9 @@
         tools:text="Specialité: medcine dentaire"
         android:textAppearance="?attr/textAppearanceListItem"
         android:textSize="20sp"
-        android:layout_marginTop="12dp"
-        android:layout_below="@+id/list_docteur"
+        android:layout_below="@+id/list_pay"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="13dp" />
 
 </RelativeLayout>
