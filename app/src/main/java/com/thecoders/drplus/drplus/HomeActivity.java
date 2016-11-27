@@ -8,7 +8,11 @@ import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 
+
 public class HomeActivity extends BaseActivity {
+    private RecyclerView mRecyclerView;
+    private RecyclerView.Adapter mAdapter;
+    private RecyclerView.LayoutManager mLayoutManager;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -16,6 +20,16 @@ public class HomeActivity extends BaseActivity {
         setContentView(R.layout.activity_home);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+        mRecyclerView = (RecyclerView) findViewById(R.id.my_recycler_view);
+
+        mRecyclerView.setHasFixedSize(true);
+
+        mLayoutManager = new LinearLayoutManager(this);
+        mRecyclerView.setLayoutManager(mLayoutManager);
+        /*
+        mAdapter = new MyAdapter(myDataset);
+        mRecyclerView.setAdapter(mAdapter);*/
 
 
     }
