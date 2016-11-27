@@ -1,7 +1,8 @@
 <resources>
     <string name="app_name">Dr Plus</string>
-    <string name="action_settings">Paramètres</string>
-    <string name="title_activity_main2">Accueil</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main2">Home</string>
     <string name="Doctors">Doctor</string>
+    <string name="RDV">Appointment</string>
 
 </resources>
