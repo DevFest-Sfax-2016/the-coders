@@ -68,7 +68,8 @@
                     android:inputType="textPassword"
                     android:ems="10"
                     android:id="@+id/passwordField"
-                    android:layout_weight="1" />
+                    android:layout_weight="1"
+                    android:hint="Password" />
 
             </LinearLayout>
 
