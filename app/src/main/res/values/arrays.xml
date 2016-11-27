@@ -16,22 +16,29 @@
   -->
 <resources>
     <string-array name="docteur">
-        <item>Palais Garnie</item>
-        <item>Piazza del Duomo</item>
-        <item>Manhattan</item>
-        <item>Senso-ji</item>
-        <item>Sultan Ahmed Mosque</item>
-        <item>Table Mountain</item>
+        <item>Monther BenZeyed</item>
+        <item>Monther BenZeyed</item>
+        <item>Monther BenZeyed</item>
+        <item>Monther BenZeyed</item>
+        <item>Monther BenZeyed</item>
+        <item>Monther BenZeyed</item>
+        <item>Monther BenZeyed</item>
+        <item>Monther BenZeyed</item>
+        <item>Sami CHAABOUNI</item>
+        <item>Sami CHAABOUNI</item>
+
     </string-array>
     <string-array name="specialite">
-        <item>The Palais Garnier which locates in Paris was built from 1861 for
-        the Paris Opera.
-        </item>
-        <item>Piazza del Duomo the cathedral which locates in Florence.</item>
-        <item>Manhattan is the district in New York City</item>
-        <item>Senso-ji is the Shrine locates in Asakusa Tokyo</item>
-        <item>Sultan Ahmed Mosque is mosque locates in Istabul, Turkey</item>
-        <item>Table Mountain is mountain and park locates in Cape Town, South Africa.</item>
+        <item>Gynécologue</item>
+        <item>Pédiatrie</item>
+        <item>Médecine dentaire</item>
+        <item>Médecine dentaire</item>
+        <item>Médecine dentaire</item>
+        <item>Médecine dentaire</item>
+        <item>Médecine dentaire</item>
+        <item>Médecine dentaire</item>
+        <item>Médecine dentaire</item>
+        <item>Médecine dentaire</item>
     </string-array>
 
 
@@ -42,5 +49,9 @@
         <item>@drawable/img33</item>
         <item>@drawable/img44</item>
         <item>@drawable/img55</item>
+        <item>@drawable/img66</item>
+        <item>@drawable/img77</item>
+        <item>@drawable/img88</item>
+        <item>@drawable/img99</item>
     </array>
 </resources>
