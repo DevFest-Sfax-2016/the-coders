@@ -22,8 +22,12 @@
             android:name=".HomeActivity"
             android:label="@string/title_activity_main2"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".BaseActivity"></activity>
-
+        <activity android:name=".BaseActivity" />
+        <activity
+            android:name=".Main2Activity"
+            android:label="@string/Doctors"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Main3Activity"></activity>
     </application>
 
 </manifest>
