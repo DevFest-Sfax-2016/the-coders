@@ -43,7 +43,7 @@
                     android:layout_height="wrap_content"
                     android:inputType="textPersonName"
                     android:ems="10"
-                    android:id="@+id/editText"
+                    android:id="@+id/emailField"
                     android:hint="login" />
 
             </LinearLayout>
@@ -67,7 +67,7 @@
                     android:layout_height="wrap_content"
                     android:inputType="textPassword"
                     android:ems="10"
-                    android:id="@+id/editText3"
+                    android:id="@+id/passwordField"
                     android:layout_weight="1" />
 
             </LinearLayout>
@@ -76,13 +76,13 @@
                 android:text="Sign In"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/button" />
+                android:id="@+id/buttonSignIn" />
 
             <Button
                 android:text="Sign Up"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/button2" />
+                android:id="@+id/buttonSignUp" />
 
         </LinearLayout>
     </LinearLayout>
