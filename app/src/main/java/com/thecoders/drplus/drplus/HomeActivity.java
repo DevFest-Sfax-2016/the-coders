@@ -15,7 +15,7 @@ import android.widget.TextView;
 
 
 public class HomeActivity extends BaseActivity {
-    private RecyclerView mRecyclerView;
+    public RecyclerView mRecyclerView;
     private RecyclerView.Adapter mAdapter;
     private RecyclerView.LayoutManager mLayoutManager;
 
@@ -35,6 +35,9 @@ public class HomeActivity extends BaseActivity {
 
         mLayoutManager = new LinearLayoutManager(this);
         mRecyclerView.setLayoutManager(mLayoutManager);
+
+
+
 
 
     }
@@ -74,6 +77,11 @@ public class HomeActivity extends BaseActivity {
                 mPlaceAvators[i] = a.getDrawable(i);
             }
             a.recycle();
+
+
+
+
+
         }
 
         @Override

@@ -40,6 +40,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     private  Button bsignup;
 
+    private Button bdetail;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
@@ -47,6 +49,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_main);
         mSignInButton=(Button)findViewById(R.id.buttonSignIn);
         mSignUpButton=(Button)findViewById(R.id.buttonSignUp);
+        bdetail=(Button)findViewById(R.id.button2);
+
+
+
+
 
         mSignInButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -65,10 +72,20 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             @Override
             public void onClick(View view) {
                 // Go to homeactivity
-                startActivity(new Intent(MainActivity.this, HomeActivity.class));
-                finish();
+                Intent i = new Intent(MainActivity.this,HomeActivity.class);
+                startActivity(i);
+
             }
         });
+
+        bdetail.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(MainActivity.this,Main2Activity.class);
+                startActivity(i);
+            }
+        });
+
     }
 
     private void initView() {
