@@ -1,4 +1,4 @@
-package com.thecoders.drplus.drplus.Models;
+package com.thecoders.drplus.drplus;
 
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
