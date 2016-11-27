@@ -24,10 +24,14 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".BaseActivity" />
         <activity
-            android:name=".Main2Activity"
+            android:name=".DoctorActivity"
             android:label="@string/Doctors"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".Main3Activity"></activity>
+        <activity
+            android:name=".RDVActivity"
+            android:label="@string/RDV"
+            android:theme="@style/AppTheme.NoActionBar" />
+
     </application>
 
 </manifest>
