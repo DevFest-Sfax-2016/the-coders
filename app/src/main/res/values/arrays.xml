@@ -16,29 +16,29 @@
   -->
 <resources>
     <string-array name="docteur">
+        <item>Amal Hamed</item>
+        <item>Sirine HadjKacem</item>
         <item>Monther BenZeyed</item>
-        <item>Monther BenZeyed</item>
-        <item>Monther BenZeyed</item>
-        <item>Monther BenZeyed</item>
-        <item>Monther BenZeyed</item>
-        <item>Monther BenZeyed</item>
-        <item>Monther BenZeyed</item>
-        <item>Monther BenZeyed</item>
-        <item>Sami CHAABOUNI</item>
-        <item>Sami CHAABOUNI</item>
+        <item>Amin Krichen</item>
+        <item>Kais Chabouni</item>
+        <item>Achraf Bellil</item>
+        <item>Hatem Kochbati</item>
+        <item>Ranya Krichen</item>
+        <item>Surour BenZaied</item>
+        <item>Mounira Braiek</item>
 
     </string-array>
     <string-array name="specialite">
         <item>Gynécologue</item>
         <item>Pédiatrie</item>
         <item>Médecine dentaire</item>
-        <item>Médecine dentaire</item>
-        <item>Médecine dentaire</item>
-        <item>Médecine dentaire</item>
-        <item>Médecine dentaire</item>
-        <item>Médecine dentaire</item>
-        <item>Médecine dentaire</item>
-        <item>Médecine dentaire</item>
+        <item>Médecine nucléaire.</item>
+        <item>Médecine général</item>
+        <item>Médecine préventive</item>
+        <item>Odontologie</item>
+        <item>Ophtalmologie</item>
+        <item>La radiologie</item>
+        <item>La chirurgie.</item>
     </string-array>
 
 
