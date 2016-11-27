@@ -1,12 +1,11 @@
 package com.thecoders.drplus.drplus;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class Main2Activity extends BaseActivity {
+public class DoctorActivity extends BaseActivity {
     Button b1;
 
     @Override
@@ -17,7 +16,7 @@ public class Main2Activity extends BaseActivity {
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(Main2Activity.this,Main3Activity.class);
+                Intent i = new Intent(DoctorActivity.this,RDVActivity.class);
                 startActivity(i);
             }
         });

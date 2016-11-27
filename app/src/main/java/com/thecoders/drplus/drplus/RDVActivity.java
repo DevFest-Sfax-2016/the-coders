@@ -3,7 +3,7 @@ package com.thecoders.drplus.drplus;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class Main3Activity extends AppCompatActivity {
+public class RDVActivity extends BaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

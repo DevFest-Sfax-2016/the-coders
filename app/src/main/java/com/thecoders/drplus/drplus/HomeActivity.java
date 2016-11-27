@@ -36,10 +36,6 @@ public class HomeActivity extends BaseActivity {
         mLayoutManager = new LinearLayoutManager(this);
         mRecyclerView.setLayoutManager(mLayoutManager);
 
-
-
-
-
     }
 
 

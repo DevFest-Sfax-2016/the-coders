@@ -81,7 +81,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         bdetail.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(MainActivity.this,Main2Activity.class);
+                Intent i = new Intent(MainActivity.this,DoctorActivity.class);
                 startActivity(i);
             }
         });
