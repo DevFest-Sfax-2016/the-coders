@@ -23,12 +23,14 @@ public class HomeActivity extends BaseActivity {
 
         mRecyclerView = (RecyclerView) findViewById(R.id.my_recycler_view);
 
+        mRecyclerView.setHasFixedSize(true);
 
         mLayoutManager = new LinearLayoutManager(this);
         mRecyclerView.setLayoutManager(mLayoutManager);
-
-        /*mAdapter = new MyAdapter(myDataset);
+        /*
+        mAdapter = new MyAdapter(myDataset);
         mRecyclerView.setAdapter(mAdapter);*/
+
 
     }
 
